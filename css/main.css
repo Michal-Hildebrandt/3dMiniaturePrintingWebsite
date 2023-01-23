@@ -1,34 +1,66 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    font-family: 'Raleway', 'sans-serif';
+	font-family: 'Raleway', 'sans-serif';
 }
 
 .nav {
-    height: 50px;
-    background-color: #333;
-    text-align: center;
-    line-height: 50px;
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	line-height: 50px;
 }
 
 .nav-item {
-    display:inline-block;
+	display: inline-block;
 }
 
 .nav-item a {
-    padding: 0 50px;
-    color:#fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px; 
-    transition: color .3s;
+	padding: 0 50px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	transition: color 0.3s;
 }
 
 .nav-item a:hover {
-    color: rgb(169, 169, 90);
+	color: rgb(169, 169, 90);
+}
+
+.header-img {
+	position: relative;
+	height: 300px;
+	background-image: url('../img/printer.jpg');
+	background-size: cover;
+	background-position: 0 50%;
+}
+
+.header-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.header-text h1 {
+	margin: 0 0 15px 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	-webkit-font-feature-settings: 'lnum';
+	-moz-font-feature-settings: 'lnum';
+	font-feature-settings: 'lnum';
+}
+
+.header-bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(92, 86, 86, 0.679);
 }
