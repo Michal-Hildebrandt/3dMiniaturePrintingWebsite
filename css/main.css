@@ -76,6 +76,46 @@ main h2 {
 	text-align: center;
 }
 
+table {
+	margin: auto;
+	border-spacing: 0;
+}
+
+thead tr {
+	background-color: #333;
+}
+
+thead tr th {
+	padding: 10px;
+	color:#fff;
+	transition: color 0.4s;
+}
+
+thead tr :hover {
+	padding: 10px;
+	background-color: rgb(169, 169, 90);
+	color: rgb(54, 54, 5);
+}
+
+tbody {
+	background-color: #fff;
+}
+
+tbody tr td {
+	border-bottom: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	transition: color 0.4s;
+}
+
+tbody :hover {
+	border-bottom: 1px solid black;
+	padding: 5px;
+	text-align: center;
+	background-color: rgb(58, 58, 58);
+	color: #fff;
+}
+
 .about-us-box {
 	position: relative;
 	height: 300px;
