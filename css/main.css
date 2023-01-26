@@ -87,7 +87,7 @@ thead tr {
 
 thead tr th {
 	padding: 10px;
-	color:#fff;
+	color: #fff;
 	transition: color 0.4s;
 }
 
@@ -116,6 +116,20 @@ tbody :hover {
 	color: #fff;
 }
 
+.contact-info {
+	text-align: center;
+	font-size: large;
+}
+.nice-spacing {
+	padding: 15px 20px;
+}
+
+div ul li {
+	text-align: center;
+	list-style-type: circle;
+	list-style-position: inside;
+	font-size: 25px;
+}
 .about-us-box {
 	position: relative;
 	height: 300px;
